@@ -11,7 +11,7 @@
 </head>
 <body>
 <header>
-    <h1>Canere <br/> <em id="subtitle">Present active infinitive of <u>can&omacr;</u> - to sing</em></h1>
+    <a class="HomePage">Canere <br/> <em id="subtitle">Present active infinitive of <u>can&omacr;</u> - to sing</em></a>
 </header>
 <hr/>
 <div class="Explanation">
@@ -20,22 +20,25 @@
 </div>
 
 <div class="buttons">
-  <button type="audio" onclick="btnG3()" id="G3">G3</button>
-  <button type="audio" onclick="btnA4()" id="A4">A4</button>
-  <button type="audio" onclick="btnB4()" id="B4">B4</button>
-  <button type="audio" onclick="btnC4()" id="C4">C4</button>
-  <button type="audio" onclick="btnD4()" id="D4">D4</button>
-  <button type="audio" onclick="btnE4()" id="E4">E4</button>
-  <button type="audio" onclick="btnShF4()" id="ShF4">#F4</button>
-  <button type="audio" onclick="btnG4()" id="G4">G4</button>
-  <button type="audio" onclick="btnA5()" id="A5">A5</button>
-  <button type="audio" onclick="btnB5()" id="B5">B5</button>
-  <button type="audio" onclick="btnShC5()" id="ShC5">#C5</button>
-  <button type="audio" onclick="btnD5()" id="D5">D5</button>
-  <button type="audio" onclick="btnE5()" id="E5">E5</button>
-  <button type="audio" onclick="btnShF5()" id="ShF5">#F5</button>
-  <button type="audio" onclick="btnShG5()" id="ShG5">#G5</button>
-  <button type="audio" onclick="btnA6()" id="A6">A6</button>
+  <button type="audio" onclick="createButton('G3')" id="G3" value="392">G3</button>
+  <button type="audio" onclick="createButton('A4')" id="A4"value="440">A4</button>
+  <button type="audio" onclick="createButton('B4')" id="B4"value="493.9">B4</button>
+  <button type="audio" onclick="createButton('C4')" id="C4"value="523.3">C4</button>
+  <button type="audio" onclick="createButton('D4')" id="D4"value="587.3">D4</button>
+  <button type="audio" onclick="createButton('E4')" id="E4"value="659.3">E4</button>
+  <button type="audio" onclick="createButton('ShF4')" id="ShF4"value="740">#F4</button>
+  <button type="audio" onclick="createButton('G4')" id="G4"value="784">G4</button>
+  <button type="audio" onclick="createButton('A5')" id="A5"value="880">A5</button>
+  <button type="audio" onclick="createButton('B5')" id="B5"value="987.8">B5</button>
+  <button type="audio" onclick="createButton('ShC5')" id="ShC5"value="1108.7">#C5</button>
+  <button type="audio" onclick="createButton('D5')" id="D5"value="1174.7">D5</button>
+  <button type="audio" onclick="createButton('E5')" id="E5"value="1318.5">E5</button>
+  <button type="audio" onclick="createButton('ShF5')" id="ShF5"value="1480">#F5</button>
+  <button type="audio" onclick="createButton('ShG5')" id="ShG5"value="1161.2">#G5</button>
+  <button type="audio" onclick="createButton('A6')" id="A6"value="1760">A6</button>
+</div>
+<div class="Explanation">
+<a id="quizlink" href="CanoQuiz.html">Click Here to Quiz Yourself</a>
 </div>
 </body>
 </html>
